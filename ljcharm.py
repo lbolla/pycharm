@@ -41,12 +41,12 @@ import stat
 import md5
 import urllib
 import calendar
+import datetime
 
 try:
     import feedparser
     import httplib
     import base64
-    import datetime
     import sha
     atom_ok = 1
 except:
